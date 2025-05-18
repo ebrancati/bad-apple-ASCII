@@ -1,15 +1,46 @@
 mp4-to-ascii/input/*
 mp4-to-ascii/output/*
-
 !mp4-to-ascii/input/.gitkeep
 !mp4-to-ascii/output/.gitkeep
-
 mp4-to-ascii/node_modules/
+
+/ascii-player/target/
+!/ascii-player/.mvn/wrapper/maven-wrapper.jar
+!/ascii-player/**/src/main/**/target/
+!/ascii-player/**/src/test/**/target/
 
 *.log
 
 .env
 .env.local
+
+### IntelliJ IDEA ###
+/ascii-player/.idea/modules.xml
+/ascii-player/.idea/jarRepositories.xml
+/ascii-player/.idea/compiler.xml
+/ascii-player/.idea/libraries/
+/ascii-player/*.iws
+/ascii-player/*.iml
+/ascii-player/*.ipr
+
+### Eclipse ###
+/ascii-player/.apt_generated
+/ascii-player/.classpath
+/ascii-player/.factorypath
+/ascii-player/.project
+/ascii-player/.settings
+/ascii-player/.springBeans
+/ascii-player/.sts4-cache
+
+### NetBeans ###
+/ascii-player/nbproject/private/
+/ascii-player/nbbuild/
+/ascii-player/dist/
+/ascii-player/nbdist/
+/ascii-player/.nb-gradle/
+/ascii-player/build/
+!/ascii-player/**/src/main/**/build/
+!/ascii-player/**/src/test/**/build/
 
 .vscode/
 .DS_Store
